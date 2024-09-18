@@ -11,20 +11,6 @@ updates:
   # directories in partition dev, chunk 1
   - package-ecosystem: "terraform"
     directories:
-      - "/terraform/org-manager/tf-cost-alerts"
-      - "/terraform/org-manager/tf-cost-reporting"
-      - "/terraform/org-manager/tf-org-scp"
-      - "/terraform/org-manager/tf-tfc-global-resources"
-      - "/terraform/overwatch-prod/tf-tfc-global-resources"
-      - "/terraform/prod/tf-bk-cluster-default-docker-build"
-      - "/terraform/prod/tf-bk-cluster-infra-dr"
-      - "/terraform/prod/tf-bk-cluster-testing"
-      - "/terraform/prod/tf-misc-billing"
-      - "/terraform/prod/tf-misc-data-eng"
-      - "/terraform/prod/tf-misc-regeneron-printing"
-      - "/terraform/prod/tf-misc-sightglass-ecr"
-      - "/terraform/prod/tf-tfc-global-resources"
-      - "/terraform/product-global-prod/tf-tfc-global-resources"
       - "/terraform/integrations-build/tf-bk-cluster-ce-sandbox-deploy"
     # this groups updates into a single PR encompassing all the above directories, with many providers upgraded per PR
     groups:
