@@ -25,7 +25,7 @@ updates:
       - "/terraform/prod/tf-misc-sightglass-ecr"
       - "/terraform/prod/tf-tfc-global-resources"
       - "/terraform/product-global-prod/tf-tfc-global-resources"
-      - "/terraform/security-dev/tf-terraform-cloud-agent-pool"
+      - "/terraform/integrations-build/tf-bk-cluster-ce-sandbox-deploy"
     # this groups updates into a single PR encompassing all the above directories, with many providers upgraded per PR
     groups:
       terraform:
